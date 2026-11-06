@@ -12,6 +12,9 @@ const llm = new ChatGroq({
 })
 
 
+
+
+
 app.post("/ai", async (req, res) => {
     const { input } = req.body
 
